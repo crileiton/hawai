@@ -50,3 +50,12 @@
     background-color: #82AD36;
     color: white;
 }
+
+#place-time img{
+    max-width: 100%;
+}
+
+#place-time{
+    background-color: #343A40;
+    color: white;
+}
