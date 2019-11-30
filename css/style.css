@@ -9,6 +9,14 @@
 #header img{
     width: 80px;
 }
+#main .carousel-inner img{
+    /* vh quiere decir el alto de la pantalla, cualquier */
+    max-height: 70vh;
+    /* Para que no se estire la imagen */
+    object-fit: cover;
+    /* Decolorar imagenes */
+    filter: grayscale(70%);
+}
 
 .text-platzi{
     color: #97C93E !important;
